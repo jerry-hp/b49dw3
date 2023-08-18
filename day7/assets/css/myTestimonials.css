@@ -1,0 +1,36 @@
+body {
+  background-image: radial-gradient(circle, #f4b76e, #f5ad59, #f6a244, #f6982c, #f78c0a);
+  height: 100vh;
+}
+h2 {
+  text-align: center;
+}
+.testimonialsContainer {
+  max-width: 1366px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.testimonial {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  box-sizing: border-box;
+  padding: 10px;
+  height: fit-content;
+  background-color: #dddddd;
+  border-radius: 10px;
+  gap: 5px;
+  box-shadow: 0 0 6px;
+}
+.testimonial img {
+  border-radius: 10px;
+}
+.testimonial i {
+  font-size: 14px;
+  text-align: justify;
+}
+.testimonial b {
+  text-align: end;
+  font-size: 14px;
+}
